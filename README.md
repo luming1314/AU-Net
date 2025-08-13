@@ -18,7 +18,7 @@ Jiangnan University
 - **2025-8-10** 🔥 Code and model released!
 
 ## 📝 TODOs:
-- [ ] Image-to-image translation module
+- [x] Image-to-image translation module
 
 ## ✨ Usage
 
@@ -76,7 +76,8 @@ To train AU-Net, execute `train.sh`:
 ```shell
 sh train.sh
 ```
-
+## 💪 I2I-DDPM
+For the image-to-image translation module used to guide AU-Net training, see our [I2I-DDPM](https://github.com/luming1314/I2I-DDPM) repository.
 ## 👏 Acknowledgment
 Our work is standing on the shoulders of giants. We want to thank the following contributors that our code is based on:
 * SuperFusion: https://github.com/Linfeng-Tang/SuperFusion
